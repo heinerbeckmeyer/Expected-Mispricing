@@ -43,4 +43,4 @@ The file `create_online_data.py` exemplifies how we create the ensemble forecast
 
 We also provide a `.csv` file (`EMP_data.csv`) with the same information.
 
-For convenience, both files can be downloaded directly from XX, with firm-level mispricing data covering January 1993 through December 2022.
+For convenience, both files can be downloaded directly from [Dropbox](https://www.dropbox.com/scl/fo/ylmjcth0wh0x1le7vxie7/h?rlkey=isbnjmtbpzpw5ref4yx2x3zns&dl=0), with firm-level mispricing data covering January 1993 through December 2022.
