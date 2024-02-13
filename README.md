@@ -26,7 +26,7 @@ Our measure of firm $i$'s expected mispricing is expressed as a non-linear funct
 We approximate $g(\cdot)$ by three well-established machine learning estimators:  (i) a feed-forward neural network with tree hidden layers; (ii) a gradient-boosted regression tree; and (iii) a random forest. The folling files estimate the models, respectively:
 
  1. `3_run_nn.py` estimates the feed-forward neural network.
- 2. `3_run_gbt.py` estimated the gradient-boosted regression tree.
+ 2. `3_run_gbt.py` estimates the gradient-boosted regression tree.
  3. `3_run_rf.py` estimates the random forest.
 
 We obtain our final measure of expected mispricing based on an equal-weighted ensemble of these three forecasts: $E_t[MP_{i,t+1}] = (g_j(z_{i,t})^{NN} + g_j(z_{i,t})^{GBT} + g_j(z_{i,t})^{RF}) / 3$.
